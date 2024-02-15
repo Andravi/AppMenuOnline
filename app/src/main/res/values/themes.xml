@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AppCardapioOnline" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+
+        <!-- Add this -->
+
+    </style>
+
+    <style name="MyCheckboxStyle">
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="Theme.AppCardapioOnline" parent="Base.Theme.AppCardapioOnline" />
+</resources>

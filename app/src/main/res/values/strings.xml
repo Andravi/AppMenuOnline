@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">App Cardapio Online</string>
+    <string name="temporario">Temporario</string>
+    <string name="text_title">Cardápio Online</string>
+    <string name="text_subtitle">Escolha e finalize seu pedido!</string>
+    <string name="text_choice_table_number">Em qual mesa está?</string>
+    <string name="text_appetizer">Entradas</string>
+    <string name="text_appetozer_1">Batata Frita</string>
+
+    <string name="text_main_plates">Platos Principais</string>
+    <string name="text_main_plate_1">Frango Recheado</string>
+
+    <string name="text_main_plate_description_1">Frango com 4 anos de vida grelhado com cebola.</string>
+
+    <string name="text_wait_time_1">méd. 15min</string>
+
+    <string name="text_main_plate_price_1">R$ 20,75</string>
+
+    <string name="text_drinks">Bebidas</string>
+    <string name="checkbox_drink_1">Refri do São geraldo</string>
+
+    <string name="text_drink_description_1">Frango com 4 anos de vida grelhado com cebola.</string>
+
+    <string name="text_drink_price_1">R$ 20,75</string>
+
+    <string name="text_dessert">Sobremesas</string>
+    <string name="text_dessert_1">Nome de Sobremessa</string>
+
+    <string name="text_total_price">Total: R$ 0,00</string>
+    <string name="text_total_wait_time">Tempo médio: XXh XXmin</string>
+    <string name="text_comment">Alguma restrição ou pedido? Deixe seu comentário:</string>
+    <string name="Button_Finish_order">Finalizar Pedido</string>
+    <string name="text_hint_comment">Tenho alergia e Peixe…</string>
+    <string name="text_appetozer_price_1">R$ 5,00</string>
+    <string name="text_main_plate_wait_time">med. xxmin</string>
+
+</resources>

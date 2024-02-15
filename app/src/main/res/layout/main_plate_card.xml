@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+    app:cardBackgroundColor="#6AA68A"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="5dp"
+    app:strokeColor="@color/black"
+    app:strokeWidth="1dp">
+
+
+    <TextView
+        android:id="@+id/text_main_plate_wait_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/text_main_plate_wait_time"
+        android:textColor="@android:color/black"
+        android:textSize="11sp"
+        android:textStyle="italic" />
+
+
+    <ImageView
+        android:id="@+id/image_main_plate"
+        android:layout_width="115dp"
+        android:layout_height="80dp"
+        android:layout_gravity="start"
+        android:importantForAccessibility="no"
+        android:src="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/checkbox_main_plate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end|top"
+        android:gravity=""
+        android:theme="@style/MyCheckboxStyle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="115dp"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/text_main_plate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_main_plate_1"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_main_plate_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:text="@string/text_main_plate_description_1"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/text_main_plate_price"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="@string/text_main_plate_price_1"
+            android:textColor="#9B1705"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
